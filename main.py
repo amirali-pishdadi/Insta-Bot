@@ -20,7 +20,7 @@ def check_login(browser):
 
 
 if __name__ == '__main__':
-    mybr = Browser('geckodriver.exe')
+    mybr = Browser('Your Browser')
     mybr.Change_Url(main_url)
 
     if ope(f'{username}.pkl'):
